@@ -30,9 +30,7 @@ export default function Home() {
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold leading-[1.1] mb-6 text-foreground">
                 A <span className="text-primary italic">Different</span><br/> Perspective.
               </h1>
-              <p className="text-lg sm:text-xl text-muted-foreground mb-8 leading-relaxed text-balance">
-                Painted Rock Enterprises specializes in developing innovative products, delivering impactful public speaking, and providing transformative business consulting.
-              </p>
+              <p className="text-lg sm:text-xl text-muted-foreground mb-8 leading-relaxed text-balance">Painted Rock Enterprises specializes in providing transformative business consulting, delivering impactful public speaking, and developing innovative products.</p>
               <div className="flex flex-wrap gap-4">
                 <Link 
                   href="/consulting-coaching" 
@@ -66,7 +64,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Brand Story Section */}
       <section id="story" className="py-24 bg-secondary text-secondary-foreground relative scroll-mt-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -97,7 +94,6 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
-
       {/* Rock Gallery */}
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -129,7 +125,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Services Section */}
       <section className="py-24 bg-muted/30 border-t border-border/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
