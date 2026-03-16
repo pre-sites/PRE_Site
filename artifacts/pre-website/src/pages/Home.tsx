@@ -54,8 +54,8 @@ export default function Home() {
               className="relative aspect-square lg:aspect-[4/3] rounded-[2rem] overflow-hidden shadow-2xl shadow-primary/10 border-4 border-background"
             >
               <img 
-                src={`${import.meta.env.BASE_URL}rocks/PaintedRock2_215_1773701244385.JPG`}
-                alt="Three painted rocks — orange house, tall brown rock, and white house with red roof" 
+                src={`${import.meta.env.BASE_URL}rocks/~PaintedRock2_193_1773701436192.jpg`}
+                alt="Four painted rocks lined up — a collection of hand-painted house rocks" 
                 className="w-full h-full object-cover"
               />
               {/* Subtle overlay gradient */}
