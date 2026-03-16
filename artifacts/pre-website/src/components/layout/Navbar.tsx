@@ -11,9 +11,9 @@ export function cn(...inputs: ClassValue[]) {
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/product-development", label: "Product Development" },
-  { href: "/public-speaking", label: "Public Speaking" },
   { href: "/consulting-coaching", label: "Consulting & Coaching" },
+  { href: "/public-speaking", label: "Public Speaking" },
+  { href: "/product-development", label: "Product Development" },
 ];
 
 export function Navbar() {
