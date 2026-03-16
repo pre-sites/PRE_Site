@@ -51,9 +51,6 @@ export function Navbar() {
             <span className="font-display text-2xl font-bold tracking-wider text-foreground group-hover:text-primary transition-colors">
               PRE
             </span>
-            <span className="text-[0.65rem] uppercase tracking-[0.2em] text-muted-foreground font-semibold">
-              Painted Rock Enterprises
-            </span>
           </Link>
 
           {/* Desktop Nav */}
