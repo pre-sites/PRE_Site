@@ -1,0 +1,9 @@
+packages:
+  "framer-motion": "For premium page transitions and scroll-triggered animations to elevate the marketing site"
+  "clsx": "For conditional class merging in reusable components"
+  "tailwind-merge": "For resolving Tailwind class conflicts in components"
+
+notes:
+  - This is a static marketing site for Painted Rock Enterprises
+  - Uses framer-motion for high-end scroll effects
+  - All images are loaded from the public/rocks folder dynamically using BASE_URL
