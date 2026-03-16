@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <PageLayout>
       {/* Hero Section */}
-      <section className="relative overflow-hidden pt-12 pb-16 lg:pt-24 lg:pb-20">
+      <section className="relative overflow-hidden pt-10 pb-10 lg:pt-16 lg:pb-14">
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background to-muted/50 pointer-events-none" />
 
         {/* Headline + CTAs */}
@@ -25,9 +25,12 @@ export default function Home() {
             initial={{ opacity: 0, y: -16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="mb-10"
+            className="mb-6"
           >
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold leading-[1.1] mb-8 text-foreground">
+            <p className="text-sm sm:text-base uppercase tracking-[0.2em] font-semibold text-primary mb-3">
+              Painted Rock Enterprises
+            </p>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold leading-[1.1] mb-6 text-foreground">
               A <span className="text-primary italic">Different</span><br/> Perspective.
             </h1>
             <div className="flex flex-wrap gap-4">
@@ -47,18 +50,18 @@ export default function Home() {
           </motion.div>
         </div>
 
-        {/* Full-width panoramic rock image */}
+        {/* Panoramic rock image — constrained height to keep subtext in view */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
           className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto"
         >
-          <div className="rounded-[2rem] overflow-hidden bg-white shadow-2xl shadow-primary/10">
+          <div className="rounded-[2rem] overflow-hidden bg-white shadow-2xl shadow-primary/10 max-h-[220px] lg:max-h-[260px]">
             <img
               src={`${import.meta.env.BASE_URL}rocks/~PaintedRock2_193_1773701436192.jpg`}
               alt="Four painted rocks lined up — a collection of hand-painted house rocks"
-              className="w-full h-auto object-contain"
+              className="w-full h-full object-cover object-center"
             />
           </div>
         </motion.div>
@@ -69,7 +72,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="text-lg sm:text-xl text-muted-foreground mt-8 leading-relaxed max-w-3xl"
+            className="text-lg sm:text-xl text-muted-foreground mt-6 leading-relaxed max-w-3xl"
           >
             Painted Rock Enterprises specializes in providing transformative business consulting, delivering impactful public speaking, and developing innovative products.
           </motion.p>
