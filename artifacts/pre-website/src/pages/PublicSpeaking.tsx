@@ -13,31 +13,40 @@ export default function PublicSpeaking() {
 
   return (
     <PageLayout>
-      <section className="relative py-20 lg:py-28 overflow-hidden bg-accent text-accent-foreground">
-        <div className="absolute inset-0">
-          <img 
-            src={`${import.meta.env.BASE_URL}rocks/PaintedRock2_169_1773695635731.JPG`} 
-            alt="Row of rocks standing out" 
-            className="w-full h-full object-cover opacity-20 mix-blend-luminosity"
-          />
-        </div>
-        
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <section className="overflow-hidden bg-accent text-accent-foreground">
+        <div className="grid lg:grid-cols-2 min-h-[400px]">
+          {/* Text side */}
+          <div className="flex items-center py-20 lg:py-28 px-4 sm:px-6 lg:px-12">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+            >
+              <span className="inline-block py-1 px-3 rounded-full bg-white/20 backdrop-blur-md text-white font-semibold tracking-wide text-sm mb-6">
+                PUBLIC SPEAKING
+              </span>
+              <h1 className="text-4xl md:text-5xl font-display font-bold mb-6 text-white">
+                Inspiring Audiences to Shift Their View
+              </h1>
+              <p className="text-xl text-white/90 leading-relaxed">
+                We bring the "Painted Rock" philosophy to the stage, challenging audiences to reconsider their assumptions about business, networking, and product creation.
+              </p>
+            </motion.div>
+          </div>
+
+          {/* Image side — full color on white */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="max-w-3xl"
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, delay: 0.15 }}
+            className="bg-white flex items-end justify-center overflow-hidden"
           >
-            <span className="inline-block py-1 px-3 rounded-full bg-white/20 backdrop-blur-md text-white font-semibold tracking-wide text-sm mb-6">
-              PUBLIC SPEAKING
-            </span>
-            <h1 className="text-4xl md:text-6xl font-display font-bold mb-6 text-white">
-              Inspiring Audiences to Shift Their View
-            </h1>
-            <p className="text-xl text-white/90 leading-relaxed">
-              We bring the "Painted Rock" philosophy to the stage, challenging audiences to reconsider their assumptions about business, networking, and product creation.
-            </p>
+            <img
+              src={`${import.meta.env.BASE_URL}rocks/PaintedRock2_199_nobg.png`}
+              alt="Painted rock houses — front rock in focus"
+              className="w-full h-auto max-h-[420px] object-contain object-bottom"
+              style={{ objectPosition: "50% 100%" }}
+            />
           </motion.div>
         </div>
       </section>

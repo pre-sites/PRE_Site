@@ -48,7 +48,7 @@ export function Navbar() {
             href="/" 
             className="group flex flex-col items-start gap-0.5 focus:outline-none"
           >
-            <span className="font-display text-2xl font-bold tracking-wider text-foreground group-hover:text-primary transition-colors">PRE</span>
+            <span className="font-display text-lg font-bold tracking-wide text-foreground group-hover:text-primary transition-colors">Painted Rock Enterprises</span>
           </Link>
 
           {/* Desktop Nav */}
