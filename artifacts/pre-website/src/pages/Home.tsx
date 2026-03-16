@@ -19,7 +19,7 @@ export default function Home() {
       <section className="relative overflow-hidden pt-10 pb-10 lg:pt-16 lg:pb-14">
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background to-muted/50 pointer-events-none" />
 
-        {/* Headline + CTAs */}
+        {/* Headline */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: -16 }}
@@ -27,26 +27,12 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="mb-6"
           >
-            <p className="text-sm sm:text-base uppercase tracking-[0.2em] font-semibold text-primary mb-3">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold leading-[1.1] mb-3 text-foreground">
               Painted Rock Enterprises
-            </p>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold leading-[1.1] mb-6 text-foreground">
-              A <span className="text-primary italic">Different</span><br/> Perspective.
             </h1>
-            <div className="flex flex-wrap gap-4">
-              <Link
-                href="/consulting-coaching"
-                className="px-8 py-4 rounded-full font-semibold bg-primary text-primary-foreground shadow-lg shadow-primary/25 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300"
-              >
-                Work With Us
-              </Link>
-              <Link
-                href="#story"
-                className="px-8 py-4 rounded-full font-semibold bg-background border-2 border-border text-foreground hover:border-primary hover:text-primary transition-all duration-300"
-              >
-                Our Story
-              </Link>
-            </div>
+            <p className="text-base sm:text-lg font-semibold italic text-primary tracking-wide">
+              A Different Perspective.
+            </p>
           </motion.div>
         </div>
 
@@ -66,16 +52,25 @@ export default function Home() {
           </div>
         </motion.div>
 
-        {/* Subtext below image */}
+        {/* Subtext + scroll link below image */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="text-lg sm:text-xl text-muted-foreground mt-6 leading-relaxed max-w-3xl"
+            className="mt-6 flex flex-col sm:flex-row sm:items-end gap-4 justify-between"
           >
-            Painted Rock Enterprises specializes in providing transformative business consulting, delivering impactful public speaking, and developing innovative products.
-          </motion.p>
+            <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-3xl">
+              Painted Rock Enterprises specializes in providing transformative business consulting, delivering impactful public speaking, and developing innovative products.
+            </p>
+            <button
+              onClick={() => document.getElementById('story')?.scrollIntoView({ behavior: 'smooth' })}
+              className="shrink-0 text-sm font-semibold text-primary hover:text-primary/70 transition-colors flex items-center gap-1.5 group whitespace-nowrap"
+            >
+              Read our story
+              <span className="inline-block group-hover:translate-y-0.5 transition-transform">↓</span>
+            </button>
+          </motion.div>
         </div>
       </section>
       {/* Brand Story Section */}
@@ -105,6 +100,28 @@ export default function Home() {
                 "They represent what I strive to deliver in my work:<br/> a different, useful, thoughtful perspective."
               </p>
             </div>
+
+            {/* CTAs after the story */}
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="flex flex-wrap justify-center gap-4 mt-12"
+            >
+              <Link
+                href="/public-speaking"
+                className="px-8 py-4 rounded-full font-semibold bg-primary text-primary-foreground shadow-lg shadow-black/20 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300"
+              >
+                Book a Speaker
+              </Link>
+              <Link
+                href="/consulting-coaching"
+                className="px-8 py-4 rounded-full font-semibold bg-transparent border-2 border-white/40 text-secondary-foreground hover:border-white hover:bg-white/10 transition-all duration-300"
+              >
+                Work With Us
+              </Link>
+            </motion.div>
           </motion.div>
         </div>
       </section>
