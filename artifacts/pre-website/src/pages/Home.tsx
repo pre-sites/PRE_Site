@@ -28,7 +28,7 @@ export default function Home() {
             className="mb-6"
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold leading-[1.1] mb-3 text-foreground">
-              Painted Rock Enterprises
+              Painted <span className="text-primary italic">Rock</span> Enterprises
             </h1>
             <p className="text-base sm:text-lg font-semibold italic text-primary tracking-wide">
               A Different Perspective.
@@ -43,11 +43,11 @@ export default function Home() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto"
         >
-          <div className="rounded-[2rem] overflow-hidden bg-white shadow-2xl shadow-primary/10 max-h-[220px] lg:max-h-[260px]">
+          <div className="rounded-[2rem] overflow-hidden bg-white shadow-2xl shadow-primary/10">
             <img
               src={`${import.meta.env.BASE_URL}rocks/~PaintedRock2_193_1773701436192.jpg`}
               alt="Four painted rocks lined up — a collection of hand-painted house rocks"
-              className="w-full h-full object-cover object-center"
+              className="w-full h-auto object-contain"
             />
           </div>
         </motion.div>
@@ -117,7 +117,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/consulting-coaching"
-                className="px-8 py-4 rounded-full font-semibold bg-transparent border-2 border-white/40 text-secondary-foreground hover:border-white hover:bg-white/10 transition-all duration-300"
+                className="px-8 py-4 rounded-full font-semibold bg-primary text-primary-foreground shadow-lg shadow-black/20 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300"
               >
                 Work With Us
               </Link>
