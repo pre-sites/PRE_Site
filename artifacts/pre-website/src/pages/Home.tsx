@@ -16,52 +16,63 @@ export default function Home() {
   return (
     <PageLayout>
       {/* Hero Section */}
-      <section className="relative overflow-hidden pt-12 pb-24 lg:pt-24 lg:pb-32">
+      <section className="relative overflow-hidden pt-12 pb-16 lg:pt-24 lg:pb-20">
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background to-muted/50 pointer-events-none" />
-        
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <motion.div 
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="max-w-2xl"
-            >
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold leading-[1.1] mb-6 text-foreground">
-                A <span className="text-primary italic">Different</span><br/> Perspective.
-              </h1>
-              <p className="text-lg sm:text-xl text-muted-foreground mb-8 leading-relaxed text-balance">Painted Rock Enterprises specializes in providing transformative business consulting, delivering impactful public speaking, and developing innovative products.</p>
-              <div className="flex flex-wrap gap-4">
-                <Link 
-                  href="/consulting-coaching" 
-                  className="px-8 py-4 rounded-full font-semibold bg-primary text-primary-foreground shadow-lg shadow-primary/25 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300"
-                >
-                  Work With Us
-                </Link>
-                <Link 
-                  href="#story" 
-                  className="px-8 py-4 rounded-full font-semibold bg-background border-2 border-border text-foreground hover:border-primary hover:text-primary transition-all duration-300"
-                >
-                  Our Story
-                </Link>
-              </div>
-            </motion.div>
 
-            <motion.div 
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative aspect-square lg:aspect-[4/3] rounded-[2rem] overflow-hidden shadow-2xl shadow-primary/10 border-4 border-background"
-            >
-              <img 
-                src={`${import.meta.env.BASE_URL}rocks/~PaintedRock2_193_1773701436192.jpg`}
-                alt="Four painted rocks lined up — a collection of hand-painted house rocks" 
-                className="w-full h-full object-cover"
-              />
-              {/* Subtle overlay gradient */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-black/20 to-transparent mix-blend-overlay" />
-            </motion.div>
+        {/* Headline + CTAs */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: -16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="mb-10"
+          >
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display font-bold leading-[1.1] mb-8 text-foreground">
+              A <span className="text-primary italic">Different</span><br/> Perspective.
+            </h1>
+            <div className="flex flex-wrap gap-4">
+              <Link
+                href="/consulting-coaching"
+                className="px-8 py-4 rounded-full font-semibold bg-primary text-primary-foreground shadow-lg shadow-primary/25 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300"
+              >
+                Work With Us
+              </Link>
+              <Link
+                href="#story"
+                className="px-8 py-4 rounded-full font-semibold bg-background border-2 border-border text-foreground hover:border-primary hover:text-primary transition-all duration-300"
+              >
+                Our Story
+              </Link>
+            </div>
+          </motion.div>
+        </div>
+
+        {/* Full-width panoramic rock image */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+          className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto"
+        >
+          <div className="rounded-[2rem] overflow-hidden bg-white shadow-2xl shadow-primary/10">
+            <img
+              src={`${import.meta.env.BASE_URL}rocks/~PaintedRock2_193_1773701436192.jpg`}
+              alt="Four painted rocks lined up — a collection of hand-painted house rocks"
+              className="w-full h-auto object-contain"
+            />
           </div>
+        </motion.div>
+
+        {/* Subtext below image */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.p
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+            className="text-lg sm:text-xl text-muted-foreground mt-8 leading-relaxed max-w-3xl"
+          >
+            Painted Rock Enterprises specializes in providing transformative business consulting, delivering impactful public speaking, and developing innovative products.
+          </motion.p>
         </div>
       </section>
       {/* Brand Story Section */}
