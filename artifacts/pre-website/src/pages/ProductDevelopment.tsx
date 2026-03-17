@@ -46,9 +46,7 @@ export default function ProductDevelopment() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-3xl font-display font-bold mb-6">The R&D Incubator</h2>
-              <p className="text-lg text-muted-foreground mb-6">
-                Painted Rock Enterprises functions as a Research and Development hub. We maintain a running list of ideas for products and services—even the bad or non-viable ones—for immediate and future reference.
-              </p>
+              <p className="text-lg text-muted-foreground mb-6">Painted Rock Enterprises functions as a Research and Development hub. We maintain a running list of products and services for immediate and future release.</p>
               <p className="text-lg text-muted-foreground">Promising concepts include products in the kitchen wares, office organization, and pet product spaces.</p>
             </motion.div>
             
