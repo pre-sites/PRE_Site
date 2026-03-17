@@ -35,7 +35,6 @@ export default function ProductDevelopment() {
           </motion.div>
         </div>
       </section>
-
       {/* Core Focus */}
       <section className="py-20 bg-card border-y border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,9 +49,7 @@ export default function ProductDevelopment() {
               <p className="text-lg text-muted-foreground mb-6">
                 Painted Rock Enterprises functions as a Research and Development hub. We maintain a running list of ideas for products and services—even the bad or non-viable ones—for immediate and future reference.
               </p>
-              <p className="text-lg text-muted-foreground">
-                Promising concepts are developed in-house, brought to market, and then converted into sole proprietorships or LLCs to be sold, developed further, or owned and operated independently.
-              </p>
+              <p className="text-lg text-muted-foreground">Promising concepts include products in the kitchen wares, office organization, and pet product spaces.</p>
             </motion.div>
             
             <div className="grid grid-cols-2 gap-4">
@@ -77,7 +74,6 @@ export default function ProductDevelopment() {
           </div>
         </div>
       </section>
-
       {/* CTA */}
       <section className="py-24 bg-background text-center">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
