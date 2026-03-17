@@ -1,6 +1,6 @@
 import { PageLayout } from "@/components/layout/PageLayout";
 import { motion } from "framer-motion";
-import { Code, Lightbulb, Shield } from "lucide-react";
+import { Code, Lightbulb } from "lucide-react";
 
 export default function ProductDevelopment() {
   return (
@@ -58,8 +58,7 @@ export default function ProductDevelopment() {
             <div className="grid grid-cols-2 gap-4">
               {[
                 { icon: Lightbulb, title: "Ideation", desc: "Generating and cataloging viable concepts." },
-                { icon: Code, title: "SaaS Dev", desc: "Building scalable software applications." },
-                { icon: Shield, title: "IP Protection", desc: "Securing patents and trademarks." }
+                { icon: Code, title: "SaaS Dev", desc: "Building scalable software applications." }
               ].map((item, idx) => (
                 <motion.div 
                   key={idx}
