@@ -1,6 +1,6 @@
 import { PageLayout } from "@/components/layout/PageLayout";
 import { motion } from "framer-motion";
-import { Code, Lightbulb, Rocket, Shield } from "lucide-react";
+import { Code, Lightbulb, Shield } from "lucide-react";
 
 export default function ProductDevelopment() {
   return (
@@ -59,8 +59,7 @@ export default function ProductDevelopment() {
               {[
                 { icon: Lightbulb, title: "Ideation", desc: "Generating and cataloging viable concepts." },
                 { icon: Code, title: "SaaS Dev", desc: "Building scalable software applications." },
-                { icon: Shield, title: "IP Protection", desc: "Securing patents and trademarks." },
-                { icon: Rocket, title: "Spin-offs", desc: "Launching mature products as LLCs." }
+                { icon: Shield, title: "IP Protection", desc: "Securing patents and trademarks." }
               ].map((item, idx) => (
                 <motion.div 
                   key={idx}
