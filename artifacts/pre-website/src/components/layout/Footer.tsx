@@ -43,10 +43,10 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-primary-foreground mb-4 uppercase tracking-wider text-xs">Contact</h4>
             <a 
-              href="mailto:hello@paintedrockenterprises.com" 
+              href="mailto:hello@paintedrockllc.com" 
               className="text-muted hover:text-primary transition-colors inline-block"
             >
-              hello@paintedrockenterprises.com
+              hello@paintedrockllc.com
             </a>
           </div>
           
