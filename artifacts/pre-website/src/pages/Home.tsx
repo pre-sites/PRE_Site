@@ -27,7 +27,7 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="mb-6"
           >
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold leading-[1.1] mb-3 text-foreground">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mb-3 text-foreground">
               Painted <span className="text-primary italic">Rock</span> Enterprises
             </h1>
             <p className="text-base sm:text-lg font-semibold italic text-primary tracking-wide">
