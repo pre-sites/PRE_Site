@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
           
           <div className="col-span-1 md:col-span-2">
-            <h3 className="font-display text-2xl font-bold mb-4">
+            <h3 className="text-2xl font-bold mb-4">
               Painted Rock Enterprises
             </h3>
             <p className="text-muted text-balance max-w-sm">
