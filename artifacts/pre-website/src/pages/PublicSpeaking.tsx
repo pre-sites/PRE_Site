@@ -25,7 +25,7 @@ export default function PublicSpeaking() {
               <span className="inline-block py-1 px-3 rounded-full bg-white/20 backdrop-blur-md text-white font-semibold tracking-wide text-sm mb-6">
                 PUBLIC SPEAKING
               </span>
-              <h1 className="text-4xl md:text-5xl font-display font-bold mb-6 text-white">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
                 Inspiring Audiences to Shift Their View
               </h1>
               <p className="text-xl text-white/90 leading-relaxed">
@@ -61,7 +61,7 @@ export default function PublicSpeaking() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-3xl font-display font-bold mb-8">Speaking Topics</h2>
+              <h2 className="text-3xl font-bold mb-8">Speaking Topics</h2>
               <div className="space-y-6 mb-12">
                 {topics.map((topic, idx) => (
                   <div key={idx} className="flex items-start gap-4">
@@ -72,7 +72,7 @@ export default function PublicSpeaking() {
               </div>
 
               <div className="p-8 bg-muted rounded-3xl border border-border">
-                <h3 className="font-display font-bold text-xl mb-4 text-foreground">Why Book PRE?</h3>
+                <h3 className="font-bold text-xl mb-4 text-foreground">Why Book PRE?</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Decades of hands-on experience in business development combined with a unique, story-driven approach ensures that audiences don't just leave with notes—they leave with a fundamentally shifted mindset ready to tackle challenges from a fresh angle.
                 </p>

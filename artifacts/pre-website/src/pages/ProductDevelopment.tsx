@@ -25,7 +25,7 @@ export default function ProductDevelopment() {
             <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary font-semibold tracking-wide text-sm mb-6">
               INNOVATION & R&D
             </span>
-            <h1 className="text-4xl md:text-6xl font-display font-bold text-foreground mb-6 max-w-4xl mx-auto">
+            <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 max-w-4xl mx-auto">
               Building Solutions from <br/>a <span className="text-primary">Different Perspective</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
@@ -45,7 +45,7 @@ export default function ProductDevelopment() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-3xl font-display font-bold mb-6">The R&D Incubator</h2>
+              <h2 className="text-3xl font-bold mb-6">The R&D Incubator</h2>
               <p className="text-lg text-muted-foreground mb-6">Painted Rock Enterprises functions as a Research and Development hub. We maintain a running list of products and services for immediate and future release.</p>
               <p className="text-lg text-muted-foreground">Promising concepts include products in the kitchen wares, office organization, and pet product spaces.</p>
             </motion.div>
@@ -75,7 +75,7 @@ export default function ProductDevelopment() {
       {/* CTA */}
       <section className="py-24 bg-background text-center">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-display font-bold mb-6">Have an Idea to Develop?</h2>
+          <h2 className="text-3xl font-bold mb-6">Have an Idea to Develop?</h2>
           <p className="text-lg text-muted-foreground mb-8">
             Whether you're looking for a technical partner or seeking to acquire one of our developed properties, let's connect.
           </p>

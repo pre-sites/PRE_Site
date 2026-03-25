@@ -14,7 +14,7 @@ export default function ConsultingCoaching() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h1 className="text-4xl md:text-6xl font-display font-bold text-foreground mb-6">
+              <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
                 Guidance for the <br/>Road Ahead.
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
@@ -51,7 +51,7 @@ export default function ConsultingCoaching() {
               <div className="w-16 h-16 bg-secondary/10 text-secondary rounded-2xl flex items-center justify-center mb-6">
                 <TrendingUp size={32} />
               </div>
-              <h2 className="text-3xl font-display font-bold mb-4">Business Consulting</h2>
+              <h2 className="text-3xl font-bold mb-4">Business Consulting</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 We embed with your team to analyze operational inefficiencies, product bottlenecks, and strategic blind spots. By applying our "different perspective" methodology, we help companies pivot, scale, and optimize their intellectual property.
               </p>
@@ -72,7 +72,7 @@ export default function ConsultingCoaching() {
               <div className="w-16 h-16 bg-primary/10 text-primary rounded-2xl flex items-center justify-center mb-6">
                 <Compass size={32} />
               </div>
-              <h2 className="text-3xl font-display font-bold mb-4">Executive Coaching</h2>
+              <h2 className="text-3xl font-bold mb-4">Executive Coaching</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Designed for founders, executives, and high-potential leaders. We focus on personal growth, advanced networking techniques, and developing the mental flexibility to see challenges from multiple angles.
               </p>
@@ -87,7 +87,7 @@ export default function ConsultingCoaching() {
 
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-10">
-              <h2 className="text-3xl font-display font-bold mb-4">Ready to Gain a New Perspective?</h2>
+              <h2 className="text-3xl font-bold mb-4">Ready to Gain a New Perspective?</h2>
               <p className="text-muted-foreground">Fill out the form below to inquire about our consulting availability.</p>
             </div>
             <ContactForm />
