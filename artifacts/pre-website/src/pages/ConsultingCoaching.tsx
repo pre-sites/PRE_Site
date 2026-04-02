@@ -57,6 +57,7 @@ export default function ConsultingCoaching() {
               </p>
               <ul className="space-y-3 text-foreground font-medium">
                 <li className="flex items-center gap-3"><Target size={18} className="text-secondary" /> Strategy & Planning</li>
+                <li className="flex items-center gap-3"><Target size={18} className="text-secondary" /> Process Improvement</li>
                 <li className="flex items-center gap-3"><Target size={18} className="text-secondary" /> AI Implementation</li>
                 <li className="flex items-center gap-3"><Target size={18} className="text-secondary" /> Organizational Design</li>
               </ul>
