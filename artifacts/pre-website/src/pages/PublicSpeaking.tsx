@@ -25,9 +25,7 @@ export default function PublicSpeaking() {
               <span className="inline-block py-1 px-3 rounded-full bg-white/20 backdrop-blur-md text-white font-semibold tracking-wide text-sm mb-6">
                 PUBLIC SPEAKING
               </span>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-                Inspiring Audiences to Shift Their View
-              </h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Networking Reimagined: From Forced Talk to Real Connection.</h1>
               <p className="text-xl text-white/90 leading-relaxed">
                 We bring the "Painted Rock" philosophy to the stage, challenging audiences to reconsider their assumptions about business, networking, and product creation.
               </p>
@@ -50,7 +48,6 @@ export default function PublicSpeaking() {
           </motion.div>
         </div>
       </section>
-
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16">
