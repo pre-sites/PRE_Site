@@ -5,7 +5,7 @@ import { CheckCircle2 } from "lucide-react";
 
 export default function PublicSpeaking() {
   const topics = [
-    "The Power of a Different Perspective",
+    "Better Networking: Connecting for Rookies and Introverts",
     "Stop Working The Room: Authentic Networking for Real Connections",
     "Product Development Lifecycles",
     "Finding the Hidden Value in 'Bad' Ideas"
