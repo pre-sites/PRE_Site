@@ -7,7 +7,7 @@ export default function PublicSpeaking() {
   const topics = [
     "Better Networking: Connecting for Rookies and Introverts",
     "Stop Working The Room: Authentic Networking for Real Connections",
-    "Product Development Lifecycles",
+    "Creating Room Whisperers: An Ambassador's Guide for Amazing Events",
     "Finding the Hidden Value in 'Bad' Ideas"
   ];
 
