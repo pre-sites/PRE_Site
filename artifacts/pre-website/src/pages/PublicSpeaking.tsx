@@ -68,8 +68,11 @@ export default function PublicSpeaking() {
 
               <div className="p-8 bg-muted rounded-3xl border border-border">
                 <h3 className="font-bold text-xl mb-4 text-foreground">Why Book Painted Rock Enterprises?</h3>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  Keith delivers a unique, story-driven approach based on his actual experiences of learning to network as a bona fide Introvert who had to change.
+                </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Keith delivers a unique, story-driven approach based on his actual experiences of learning to network as a bona fide Introvert who had to change. Keith ensures that audiences don't just leave with notes—they leave with a fundamentally shifted mindset ready to see connecting from a fresh angle.
+                  Keith ensures that audiences don't just leave with notes—they leave with a fundamentally shifted mindset to see connecting from a fresh angle and immediate steps to take that help everyone connect easier.
                 </p>
               </div>
             </motion.div>
