@@ -42,10 +42,10 @@ export default function PublicSpeaking() {
             className="bg-white flex items-end justify-center overflow-hidden"
           >
             <img
-              src={`${import.meta.env.BASE_URL}rocks/PaintedRock2_199_nobg.png`}
-              alt="Painted rock houses — front rock in focus"
-              className="w-full h-auto max-h-[420px] object-contain object-bottom"
-              style={{ objectPosition: "50% 100%" }}
+              src="@assets/Keith_McHugh_PresentingLAX_1775165697763.jpg"
+              alt="Keith McHugh presenting to an audience"
+              className="w-full h-full object-cover object-center"
+              style={{ objectPosition: "50% 35%" }}
             />
           </motion.div>
         </div>
