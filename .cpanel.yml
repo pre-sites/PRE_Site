@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home1/painteo9/public_html/
-    - /bin/cp -R artifacts/pre-website/dist/* $DEPLOYPATH
+    - /bin/cp -R artifacts/pre-website/* $DEPLOYPATH
