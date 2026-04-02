@@ -67,7 +67,7 @@ export default function PublicSpeaking() {
               </div>
 
               <div className="p-8 bg-muted rounded-3xl border border-border">
-                <h3 className="font-bold text-xl mb-4 text-foreground">Why Book PRE?</h3>
+                <h3 className="font-bold text-xl mb-4 text-foreground">Why Book Painted Rock Enterprises?</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Decades of hands-on experience in business development combined with a unique, story-driven approach ensures that audiences don't just leave with notes—they leave with a fundamentally shifted mindset ready to tackle challenges from a fresh angle.
                 </p>
