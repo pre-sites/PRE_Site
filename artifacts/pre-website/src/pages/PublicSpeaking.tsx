@@ -8,7 +8,7 @@ export default function PublicSpeaking() {
     "Better Networking: Connecting for Rookies and Introverts",
     "Stop Working The Room: Authentic Networking for Real Connections",
     "Creating Room Whisperers: An Ambassador's Guide for Amazing Events",
-    "Finding the Hidden Value in 'Bad' Ideas"
+    "The ROI of Hello: Why Being Here Could Change Your World."
   ];
 
   return (
