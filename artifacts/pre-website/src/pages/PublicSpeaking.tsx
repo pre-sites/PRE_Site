@@ -38,7 +38,7 @@ export default function PublicSpeaking() {
             className="bg-white flex items-end justify-center overflow-hidden"
           >
             <img
-              src="@assets/Keith_McHugh_PresentingLAX_1775165697763.jpg"
+              src={`${import.meta.env.BASE_URL}rocks/Keith_McHugh_PresentingLAX_1775165697763.jpg`}
               alt="Keith McHugh presenting to an audience"
               className="w-full h-full object-cover object-center"
               style={{ objectPosition: "50% 35%" }}
