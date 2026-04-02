@@ -26,9 +26,7 @@ export default function PublicSpeaking() {
                 PUBLIC SPEAKING
               </span>
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Networking Reimagined: From Forced Talk to Real Connection.</h1>
-              <p className="text-xl text-white/90 leading-relaxed">
-                We bring the "Painted Rock" philosophy to the stage, challenging audiences to reconsider their assumptions about business, networking, and product creation.
-              </p>
+              <p className="text-xl text-white/90 leading-relaxed">We bring the "Painted Rock" philosophy to the stage, challenging audiences to reconsider their assumptions about networking.</p>
             </motion.div>
           </div>
 
