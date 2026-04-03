@@ -81,6 +81,7 @@ export default function ConsultingCoaching() {
                 <li className="flex items-center gap-3"><Target size={18} className="text-primary" /> Leadership Development</li>
                 <li className="flex items-center gap-3"><Target size={18} className="text-primary" /> Effective Networking</li>
                 <li className="flex items-center gap-3"><Target size={18} className="text-primary" /> Perspective Shifting</li>
+                <li className="flex items-center gap-3"><Target size={18} className="text-primary" /> Finding Your 20</li>
               </ul>
             </motion.div>
 
